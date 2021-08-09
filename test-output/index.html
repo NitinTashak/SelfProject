@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Nitin.Takshak\AppData\Local\Temp\testng-eclipse-38496839\testng-customsuite.xml</span>
+                    <span>C:\Users\Nitin.Takshak\AppData\Local\Temp\testng-eclipse--840597715\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="MavenProject1.LoginClass" class="method navigator-link" hash-for-method="browserLaunch">browserLaunch</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="MavenProject1.LoginClass" class="method navigator-link" hash-for-method="signInClick(Negative, abc@gmail.com, sdfdsfds)">signInClick(Negative, abc@gmail.com, sdfdsfds)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="MavenProject1.LoginClass" class="method navigator-link" hash-for-method="signInClick">signInClick</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="MavenProject1.LoginClass" class="method navigator-link" hash-for-method="signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)">signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="MavenProject1.LoginClass" class="method navigator-link" hash-for-method="signInClick(Negative, abc2@gmail.com, lalallaal)">signInClick(Negative, abc2@gmail.com, lalallaal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="MavenProject1.LoginClass" class="method navigator-link" hash-for-method="signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)">signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -132,16 +142,34 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="browserLaunch">
-                  </a> <!-- browserLaunch -->
-                  <span class="method-name">browserLaunch</span>
+                  <a name="signInClick(Negative, abc@gmail.com, sdfdsfds)">
+                  </a> <!-- signInClick(Negative, abc@gmail.com, sdfdsfds) -->
+                  <span class="method-name">signInClick</span>
+                  <span class="parameters">(Negative, abc@gmail.com, sdfdsfds)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="signInClick">
-                  </a> <!-- signInClick -->
+                  <a name="signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)">
+                  </a> <!-- signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne) -->
                   <span class="method-name">signInClick</span>
+                  <span class="parameters">(Positive, nitintaxak@gmail.com, W0rld!$m!ne)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInClick(Negative, abc2@gmail.com, lalallaal)">
+                  </a> <!-- signInClick(Negative, abc2@gmail.com, lalallaal) -->
+                  <span class="method-name">signInClick</span>
+                  <span class="parameters">(Negative, abc2@gmail.com, lalallaal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)">
+                  </a> <!-- signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne) -->
+                  <span class="method-name">signInClick</span>
+                  <span class="parameters">(Positive, nitintaxak@gmail.com, W0rld!$m!ne)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +177,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Nitin.Takshak\AppData\Local\Temp\testng-eclipse-38496839\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Nitin.Takshak\AppData\Local\Temp\testng-eclipse--840597715\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -198,20 +226,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'browserLaunch')
+data.setCell(0, 1, 'signInClick')
 data.setCell(0, 2, 'MavenProject1.LoginClass')
-data.setCell(0, 3, 8804);
+data.setCell(0, 3, 15381);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'signInClick')
 data.setCell(1, 2, 'MavenProject1.LoginClass')
-data.setCell(1, 3, 2);
+data.setCell(1, 3, 10488);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'signInClick')
+data.setCell(2, 2, 'MavenProject1.LoginClass')
+data.setCell(2, 3, 6251);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'signInClick')
+data.setCell(3, 2, 'MavenProject1.LoginClass')
+data.setCell(3, 3, 4664);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -238,13 +274,25 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">MavenProject1.LoginClass</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">browserLaunch</span>
+              <div class="configuration-test before">
+                <span class="method-name">bt</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)</span>
+                <span class="method-start">11173 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">signInClick</span>
-                <span class="method-start">8809 ms</span>
+                <span class="method-name">signInClick(Negative, abc@gmail.com, sdfdsfds)</span>
+                <span class="method-start">26560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signInClick(Negative, abc2@gmail.com, lalallaal)</span>
+                <span class="method-start">32814 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)</span>
+                <span class="method-start">37480 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

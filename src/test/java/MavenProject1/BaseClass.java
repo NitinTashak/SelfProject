@@ -13,11 +13,12 @@ import org.testng.annotations.Test;
 public class BaseClass 
 {
 	WebDriver driver;
+	Properties prop;
 	@Test
 	public WebDriver browserLaunch() throws IOException
 	{
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\globalfile.properties");
-		Properties prop = new Properties();
+		prop = new Properties();
 		prop.load(fis);
 		
 		String link =prop.getProperty("link");

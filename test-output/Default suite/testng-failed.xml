@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MavenProject1.BaseClass">
+      <class name="MavenProject1.LoginClass">
         <methods>
-          <include name="TC1"/>
+          <include name="bt"/>
+          <include name="signInClick" invocation-numbers="0 3"/>
         </methods>
-      </class> <!-- MavenProject1.BaseClass -->
+      </class> <!-- MavenProject1.LoginClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
