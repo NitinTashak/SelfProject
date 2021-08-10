@@ -1,12 +1,17 @@
 package MavenProject1;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
@@ -33,6 +38,14 @@ public class BaseClass
 			driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 		}
 		return driver;
+	}
+	
+	public String takeScreenshot(String methodName, WebDriver driver) throws WebDriverException, IOException
+	{
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		String destFile = System.getProperty("user.dir")+"\\reports\\"+methodName+".png";
+		FileUtils.copyFile(ts.getScreenshotAs(OutputType.FILE),new File(destFile));
+		return destFile;
 	}
 	
 

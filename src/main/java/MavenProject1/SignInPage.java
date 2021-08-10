@@ -22,5 +22,13 @@ public class SignInPage
 		LogInPage lp = new LogInPage(driver);
 		return lp;
 	}
+	
+	@FindBy(css="[class='hero__headline hero__headline--basic']")
+	private WebElement headerText;
+	
+	public WebElement headerText()
+	{
+		return headerText;
+	}
 
 }
