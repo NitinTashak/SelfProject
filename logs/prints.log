@@ -1,6 +1,2 @@
-14:26:03.474 [TestNG-tests-3] INFO  MavenProject1.BaseClass - ValidateHeaderTest-Header is verified
-14:26:20.234 [TestNG-tests-1] INFO  MavenProject1.BaseClass - LoginTest-Navigated to Link
-14:26:27.811 [TestNG-tests-1] INFO  MavenProject1.BaseClass - LoginTest-Navigated to Link
-14:26:44.730 [TestNG-tests-1] INFO  MavenProject1.BaseClass - LoginTest-Navigated to Link
-14:26:51.520 [TestNG-tests-1] INFO  MavenProject1.BaseClass - LoginTest-Navigated to Link
-14:26:58.183 [TestNG-tests-1] INFO  MavenProject1.BaseClass - LoginTest-Navigated to Link
+09:48:41.960 [TestNG-tests-1] INFO  MavenProject1.BaseClass - LoginTest-Logout successful
+09:48:43.631 [TestNG-tests-1] INFO  MavenProject1.BaseClass - LoginTest-Navigated to Link

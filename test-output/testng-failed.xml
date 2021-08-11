@@ -4,11 +4,33 @@
   <listeners>
     <listener class-name="MavenProject1.Listeners"/>
   </listeners>
+  <test thread-count="5" parallel="tests" name="TitleTest(failed)">
+    <classes>
+      <class name="MavenProject1.ValidateTitleTest">
+        <methods>
+          <include name="bl"/>
+          <include name="validateTitle"/>
+          <include name="cb"/>
+        </methods>
+      </class> <!-- MavenProject1.ValidateTitleTest -->
+    </classes>
+  </test> <!-- TitleTest(failed) -->
+  <test thread-count="5" parallel="tests" name="HeaderTest(failed)">
+    <classes>
+      <class name="MavenProject1.ValidateHeaderTest">
+        <methods>
+          <include name="validateHeader"/>
+          <include name="bl"/>
+          <include name="cb"/>
+        </methods>
+      </class> <!-- MavenProject1.ValidateHeaderTest -->
+    </classes>
+  </test> <!-- HeaderTest(failed) -->
   <test thread-count="5" parallel="tests" name="LoginTest(failed)">
     <classes>
       <class name="MavenProject1.LoginTest">
         <methods>
-          <include name="signInClick" invocation-numbers="0 3 4"/>
+          <include name="signInClick"/>
           <include name="bt"/>
           <include name="cb"/>
         </methods>

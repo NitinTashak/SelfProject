@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MavenProject1.ValidateHeader">
+      <class name="MavenProject1.LoginTest">
         <methods>
-          <include name="validateHeader"/>
-          <include name="bl"/>
+          <include name="signInClick" invocation-numbers="0 1 2 3 4"/>
+          <include name="bt"/>
+          <include name="cb"/>
         </methods>
-      </class> <!-- MavenProject1.ValidateHeader -->
+      </class> <!-- MavenProject1.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

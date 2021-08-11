@@ -27,8 +27,8 @@ public class BaseClass
 		prop.load(fis);
 		
 		String link =prop.getProperty("link");
-		String browser = prop.getProperty("browser");
-		
+		//String browser = prop.getProperty("browser");
+		String browser = System.getProperty("browser");
 		if(browser.equalsIgnoreCase("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\\\main\\\\java\\\\resources\\chromedriver.exe");

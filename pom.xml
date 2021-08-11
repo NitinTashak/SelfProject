@@ -10,13 +10,28 @@
   <name>SelfProjcect</name>
   <url>http://maven.apache.org</url>
 
-<build>
+<build> 
 <resources>
 	<resource>
 		<directory>src/main/java/resources</directory>
 		<filtering>true</filtering>
 	</resource>
 </resources>
+<plugins>
+   
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M5</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+   
+</plugins>
+
 </build>
 
   <dependencies>

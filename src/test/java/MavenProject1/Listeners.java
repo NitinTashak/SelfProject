@@ -3,7 +3,6 @@ package MavenProject1;
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -14,9 +13,9 @@ import com.aventstack.extentreports.Status;
 
 import resources.ExtentReporterNG;
 
+
 public class Listeners extends BaseClass implements ITestListener 
 {
-	
 	ExtentTest test;
 	ExtentReports extent = ExtentReporterNG.getReportObject();
 	ThreadLocal<ExtentTest> tlextentTest = new ThreadLocal<ExtentTest>();
@@ -59,27 +58,27 @@ public class Listeners extends BaseClass implements ITestListener
 	}
 
 	@Override
-	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
-		ITestListener.super.onTestSkipped(result);
+	public void onTestSkipped(ITestResult result) 
+	{
+		
 	}
 
 	@Override
-	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		// TODO Auto-generated method stub
-		ITestListener.super.onTestFailedButWithinSuccessPercentage(result);
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result)
+	{
+		
 	}
 
 	@Override
-	public void onTestFailedWithTimeout(ITestResult result) {
-		// TODO Auto-generated method stub
-		ITestListener.super.onTestFailedWithTimeout(result);
+	public void onTestFailedWithTimeout(ITestResult result)
+	{
+		
 	}
 
 	@Override
-	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
-		ITestListener.super.onStart(context);
+	public void onStart(ITestContext context)
+	{
+		
 	}
 
 	@Override
