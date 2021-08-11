@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
+                    <span class="method-stats">7 methods, 5 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,12 +104,27 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MavenProject1.LoginTest" hash-for-method="signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)">signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MavenProject1.LoginTest" hash-for-method="signInClick(Negative, abc2@gmail.com, lalallaal)">signInClick(Negative, abc2@gmail.com, lalallaal)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MavenProject1.LoginTest" hash-for-method="signInClick(Negative, abc@gmail.com, sdfdsfds)">signInClick(Negative, abc@gmail.com, sdfdsfds)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MavenProject1.LoginTest" hash-for-method="signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)">signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MavenProject1.LoginTest" hash-for-method="signInClick(Negative, werwerc2@gmail.com, lalallaal)">signInClick(Negative, werwerc2@gmail.com, lalallaal)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -121,21 +136,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MavenProject1.LoginTest" hash-for-method="signInClick(Negative, werwerc2@gmail.com, lalallaal)">signInClick(Negative, werwerc2@gmail.com, lalallaal)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MavenProject1.LoginTest" hash-for-method="signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)">signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MavenProject1.LoginTest" hash-for-method="signInClick(Negative, abc@gmail.com, sdfdsfds)">signInClick(Negative, abc@gmail.com, sdfdsfds)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MavenProject1.ValidateHeaderTest" hash-for-method="validateHeader">validateHeader</a> <!-- method navigator-link -->
@@ -166,18 +166,96 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)">
+                  </a> <!-- signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne) -->
+                  <span class="method-name">signInClick</span>
+                  <span class="parameters">(Positive, nitintaxak@gmail.com, W0rld!$m!ne)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[href*=&apos;signin&apos;]&quot;}
+  (Session info: headless chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-HU3IM2H&apos;, ip: &apos;192.168.173.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b8ed3a37d13ec922942964419970710
+*** Element info: {Using=css selector, value=[href*=&apos;signin&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at MavenProject1.SignInPage.signInButton(SignInPage.java:21)
+	at MavenProject1.LoginTest.signInClick(LoginTest.java:38)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="signInClick(Negative, abc2@gmail.com, lalallaal)">
                   </a> <!-- signInClick(Negative, abc2@gmail.com, lalallaal) -->
                   <span class="method-name">signInClick</span>
                   <span class="parameters">(Negative, abc2@gmail.com, lalallaal)</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[href*=&apos;signin&apos;]&quot;}
-  (Session info: chrome=92.0.4515.131)
+  (Session info: headless chrome=92.0.4515.131)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-HU3IM2H&apos;, ip: &apos;192.168.173.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3da0ac7ebb85b8bf1d6dd69ffedee39b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b8ed3a37d13ec922942964419970710
+*** Element info: {Using=css selector, value=[href*=&apos;signin&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at MavenProject1.SignInPage.signInButton(SignInPage.java:21)
+	at MavenProject1.LoginTest.signInClick(LoginTest.java:38)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInClick(Negative, abc@gmail.com, sdfdsfds)">
+                  </a> <!-- signInClick(Negative, abc@gmail.com, sdfdsfds) -->
+                  <span class="method-name">signInClick</span>
+                  <span class="parameters">(Negative, abc@gmail.com, sdfdsfds)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[href*=&apos;signin&apos;]&quot;}
+  (Session info: headless chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-HU3IM2H&apos;, ip: &apos;192.168.173.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b8ed3a37d13ec922942964419970710
 *** Element info: {Using=css selector, value=[href*=&apos;signin&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -210,13 +288,52 @@ Session ID: 3da0ac7ebb85b8bf1d6dd69ffedee39b
                   <span class="method-name">signInClick</span>
                   <span class="parameters">(Positive, nitintaxak@gmail.com, W0rld!$m!ne)</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[href*=&apos;signin&apos;]&quot;}
-  (Session info: chrome=92.0.4515.131)
+  (Session info: headless chrome=92.0.4515.131)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-HU3IM2H&apos;, ip: &apos;192.168.173.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3da0ac7ebb85b8bf1d6dd69ffedee39b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b8ed3a37d13ec922942964419970710
+*** Element info: {Using=css selector, value=[href*=&apos;signin&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at MavenProject1.SignInPage.signInButton(SignInPage.java:21)
+	at MavenProject1.LoginTest.signInClick(LoginTest.java:38)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInClick(Negative, werwerc2@gmail.com, lalallaal)">
+                  </a> <!-- signInClick(Negative, werwerc2@gmail.com, lalallaal) -->
+                  <span class="method-name">signInClick</span>
+                  <span class="parameters">(Negative, werwerc2@gmail.com, lalallaal)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[href*=&apos;signin&apos;]&quot;}
+  (Session info: headless chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-HU3IM2H&apos;, ip: &apos;192.168.173.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b8ed3a37d13ec922942964419970710
 *** Element info: {Using=css selector, value=[href*=&apos;signin&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -270,38 +387,6 @@ Session ID: 3da0ac7ebb85b8bf1d6dd69ffedee39b
                   <a name="validateTitle">
                   </a> <!-- validateTitle -->
                   <span class="method-name">validateTitle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">MavenProject1.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="signInClick(Negative, werwerc2@gmail.com, lalallaal)">
-                  </a> <!-- signInClick(Negative, werwerc2@gmail.com, lalallaal) -->
-                  <span class="method-name">signInClick</span>
-                  <span class="parameters">(Negative, werwerc2@gmail.com, lalallaal)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)">
-                  </a> <!-- signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne) -->
-                  <span class="method-name">signInClick</span>
-                  <span class="parameters">(Positive, nitintaxak@gmail.com, W0rld!$m!ne)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="signInClick(Negative, abc@gmail.com, sdfdsfds)">
-                  </a> <!-- signInClick(Negative, abc@gmail.com, sdfdsfds) -->
-                  <span class="method-name">signInClick</span>
-                  <span class="parameters">(Negative, abc@gmail.com, sdfdsfds)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -381,36 +466,36 @@ data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'signInClick')
 data.setCell(0, 2, 'MavenProject1.LoginTest')
-data.setCell(0, 3, 68585);
+data.setCell(0, 3, 6184);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'signInClick')
 data.setCell(1, 2, 'MavenProject1.LoginTest')
-data.setCell(1, 3, 16049);
+data.setCell(1, 3, 5750);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'signInClick')
 data.setCell(2, 2, 'MavenProject1.LoginTest')
-data.setCell(2, 3, 8269);
+data.setCell(2, 3, 5628);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'signInClick')
 data.setCell(3, 2, 'MavenProject1.LoginTest')
-data.setCell(3, 3, 5947);
+data.setCell(3, 3, 5539);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'signInClick')
 data.setCell(4, 2, 'MavenProject1.LoginTest')
-data.setCell(4, 3, 3788);
+data.setCell(4, 3, 5454);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'validateTitle')
-data.setCell(5, 2, 'MavenProject1.ValidateTitleTest')
-data.setCell(5, 3, 223);
+data.setCell(5, 1, 'validateHeader')
+data.setCell(5, 2, 'MavenProject1.ValidateHeaderTest')
+data.setCell(5, 3, 129);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validateHeader')
-data.setCell(6, 2, 'MavenProject1.ValidateHeaderTest')
-data.setCell(6, 3, 170);
+data.setCell(6, 1, 'validateTitle')
+data.setCell(6, 2, 'MavenProject1.ValidateTitleTest')
+data.setCell(6, 3, 26);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -460,22 +545,22 @@ return data;
               <div class="chronological-class-name">MavenProject1.ValidateTitleTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateTitle</span>
-                <span class="method-start">13971 ms</span>
+                <span class="method-start">6953 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">cb</span>
-                <span class="method-start">14205 ms</span>
+                <span class="method-start">6999 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MavenProject1.ValidateHeaderTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateHeader</span>
-                <span class="method-start">14218 ms</span>
+                <span class="method-start">7088 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">cb</span>
-                <span class="method-start">14388 ms</span>
+                <span class="method-start">7217 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -484,29 +569,35 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)</span>
-                <span class="method-start">14479 ms</span>
+                <span class="method-start">7368 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">signInClick(Negative, abc@gmail.com, sdfdsfds)</span>
-                <span class="method-start">23023 ms</span>
+                <span class="method-start">13631 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">signInClick(Negative, abc2@gmail.com, lalallaal)</span>
-                <span class="method-start">39075 ms</span>
+                <span class="method-start">19429 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">signInClick(Positive, nitintaxak@gmail.com, W0rld!$m!ne)</span>
-                <span class="method-start">45309 ms</span>
+                <span class="method-start">25029 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">signInClick(Negative, werwerc2@gmail.com, lalallaal)</span>
-                <span class="method-start">113895 ms</span>
+                <span class="method-start">30720 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">cb</span>
-                <span class="method-start">117684 ms</span>
+                <span class="method-start">36232 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,2 +1,4 @@
-09:48:41.960 [TestNG-tests-1] INFO  MavenProject1.BaseClass - LoginTest-Logout successful
-09:48:43.631 [TestNG-tests-1] INFO  MavenProject1.BaseClass - LoginTest-Navigated to Link
+09:57:56.737 [TestNG-tests-1] INFO  MavenProject1.BaseClass - LoginTest-Navigated to Link
+09:58:02.305 [TestNG-tests-1] INFO  MavenProject1.BaseClass - LoginTest-Navigated to Link
+09:58:07.998 [TestNG-tests-1] INFO  MavenProject1.BaseClass - LoginTest-Navigated to Link
+09:58:13.530 [TestNG-tests-1] INFO  MavenProject1.BaseClass - LoginTest-Navigated to Link

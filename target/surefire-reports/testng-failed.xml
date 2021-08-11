@@ -8,7 +8,7 @@
     <classes>
       <class name="MavenProject1.LoginTest">
         <methods>
-          <include name="signInClick" invocation-numbers="0 2"/>
+          <include name="signInClick" invocation-numbers="0 1 2 3 4"/>
           <include name="bt"/>
           <include name="cb"/>
         </methods>

@@ -13,6 +13,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 public class BaseClass 
@@ -29,10 +30,13 @@ public class BaseClass
 		String link =prop.getProperty("link");
 		//String browser = prop.getProperty("browser");
 		String browser = System.getProperty("browser");
-		if(browser.equalsIgnoreCase("chrome"))
+		ChromeOptions opt = new ChromeOptions();
+		if(browser.contains("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\\\main\\\\java\\\\resources\\chromedriver.exe");
-			driver = new ChromeDriver();
+			if(browser.contains("headless"))
+				opt.addArguments("headless");
+			driver = new ChromeDriver(opt);
 			driver.manage().window().maximize();
 			driver.get(link);
 			driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
